@@ -119,10 +119,17 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img src="/Week5/Images/firefox_logo-only_RGB.png" alt="Firefox_logo">
+         <picture>
+          <source media="(max-width: 400px)" srcset="/Week5/Images/firefox_logo-only_RGB-Small.png">
+          <img src="/Week5/Images/firefox_logo-only_RGB.png" alt="Firefox-logo">
+        </picture>
         </a>
         <a href="https://www.mozilla.org/">
+          <picture>
+            <source media="(min-width: 400px)" srcset="/Week5/Images/mozilla-dinosaur-head.png">
+            <source media="(max-width: 120px)" srcset="/Week5/Images/mozilla-dinosaur-head-Small.png">
           <img src="/Week5/Images/mozilla-dinosaur-head.png" alt="Mozilla_dinosaur_head">
+        </picture>
         </a>
         <a href="https://addons.mozilla.org/">
           <img src="/Week5/Images/firefox-addons.jpg" alt="firefox-addons">
@@ -135,8 +142,11 @@
       </div>
 
       <div class="red-panda">
+      <picture>
         <!-- insert picture element -->
-      <img src="/Week5/Images/red-panda.jpg" alt="red-panda">
+          <source media="(max-width: 600px)" srcset="/Week5/Images/red-panda-Smaller.jpg">
+          <img src="/Week5/Images/red-panda.jpg" alt="a red panda">
+      </picture>
       </div>
 
     </main>
