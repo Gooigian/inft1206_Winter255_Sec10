@@ -2,6 +2,12 @@ html {
     font-family: sans-serif;
 }
 
+p{
+    text-align: center;
+    margin-top: 10px;  
+}
+ 
+
 .box {
     display: grid;
     width: 200px;
