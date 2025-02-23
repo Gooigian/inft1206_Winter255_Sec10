@@ -82,7 +82,8 @@
     }
 
     li{
-        line-height: 40px;
+        list-style: ">";
+        line-height: 30px;
         font-size: 2rem;
         letter-spacing: 2px;
         word-spacing: 2px ;
@@ -90,10 +91,19 @@
 
     a{
     color: red;
+    outline: none;
     }
     a:hover{
         color: burlywood;
+        text-decoration: none;
     }
     a:focus{
-        color: cadetblue    ;
+        color: cadetblue;
     }
+    a:visited{
+        color: rosybrown
+    }
+    a:active{
+        color:seagreen
+    }
+    
