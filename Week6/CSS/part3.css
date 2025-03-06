@@ -90,7 +90,7 @@
     }
 
     a{
-    color: red;
+    color: red !important;
     outline: none;
     }
     a:hover{
@@ -101,9 +101,9 @@
         color: cadetblue;
     }
     a:visited{
-        color: rosybrown
+        color: rosybrown;
     }
     a:active{
-        color:seagreen
+        color:seagreen;
     }
     
