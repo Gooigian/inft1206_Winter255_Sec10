@@ -67,7 +67,7 @@ testBall.draw();
 
 const balls = [];
 
-while (balls.length < 200) {
+while (balls.length < 50) {
   const size = random(10, 20);
   const ball = new Ball(
     // ball position always drawn at least one ball width
